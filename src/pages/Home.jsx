@@ -1,18 +1,20 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
     <>
     
-    {/* toggle btn */}
-
     {/* backgound Effects */}
-
+    <div className=' '>
     {/* Navbar */}
+    <Navbar/>
 
     {/* main contents */}
-
     {/* Footer */}
+    </div>
+
+
     </>
   )
 }
